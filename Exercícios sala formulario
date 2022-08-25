@@ -14,7 +14,7 @@
   
   <label for="lname">Email:</label><br>
   <input type="text" class="form-control" id="ec-mobile-number" aria-describedby="emailHelp"
-                              placeholder="Exemple@gmail.com" />                              
+                              placeholder="Exemplo@gmail.com" />                              
 <br>
 
   <label for="lname">Endereço:</label><br>
