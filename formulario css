@@ -72,7 +72,7 @@ Matemática
   <p2>Essa tarefa foi facil?</p2><br>
   <input type="range" min="1" max="100" value="50"><br><br><br>
   Opinião quanto a utilização
-  <fieldset style="width:600px; height: 300px;">
+  <fieldset style="width:500px; height: 390px;">
   <img src="https://fundacaotelefonicavivo.org.br/wp-content/webp-express/webp-images/uploads/2021/05/lingua-portuguesa-1200px-materia.jpg.webp?x53362" width="300" height="150"><br>
 <p2>Na frase "eu sou bonito" o sujeito é </p2> 
 <form name="input"
@@ -81,21 +81,45 @@ method="get">
 
 Brad Pitt 
 <input type="radio" name="Sex"
-value="male" checked>
-<br>
+value="male" checked><br>
 João da Padaria
 <input type="radio" name="Sex"
-value="male" checked>
-<br>
+value="male" checked><br>
 você mesmo
 <input type="radio" name="Sex"
-value="male" checked>
-<br>
+value="male" checked><br>
 Seus Pais 
 <input type="radio" name="Sex"
-value="male" checked>
-<br>
+value="male" checked><br>
+<p2>Complete a frase"Filho de peixe peixinho __" <p2/><br>
+<form name="input"
+action="html_form_action.asp"
+method="get">
+<input type="checkbox"
+name="bike" checked>
+é<br>
+<input type="checkbox"
+name="bike" checked>
+tem<br>
+<input type="checkbox"
+name="bike" checked>
+verde<br>
+<input type="checkbox"
+name="bike" checked>
+Bonito<br>
+<input type="checkbox"
+name="bike" checked>
+Maria<br><br><br>
+Dê uma nota para a sua professora
+<fieldset style="width:500px; height: 70px;">
+<p2> Sua professora explica bem?</p2>
+<div class="slidecontainer">
+  <p2>Essa tarefa foi facil?</p2><br>
+  <input type="range" min="1" max="100" value="50"><br><br><br>
+  Opiniões 
+<fieldset style="width:500px; height: 90px;">
+<label for="from">Digite a sua opinião sobre a disciplina</label><br>
+<input type="text" name="message" id="message" value="" style="height: 70px; width: 200px;" onclick="this.value=''"/></p> <br>
+<button>Gravar respostas</button>
 </body>
 </html>
-
-
