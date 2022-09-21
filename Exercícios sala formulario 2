@@ -58,19 +58,19 @@ Não quero informar
 <input type="radio" name="Sex"
 value="male" checked><br>
 <input type ="submit"
-value ="Enviar Agora!"><br>
+value ="Enviar Agora!"><br><br>
 
 Nome:<br>
 <input type="text" name="name"
-value="seunome" size="20">
+value="Seu nome" size="20">
 <br>
 Correio:<br>
 <input type="text" name="mail"
-value="seumail" size="20">
+value="Seu Email" size="20">
 <br>
 Comentário:<br>
 <input type="text" name="comment"
-value="seucomentário" size="40">
+value="Coloque um comentario" size="40">
 <br><br>
  <input type="submit" value="Enviar">
 <input type="reset" value="Limpar"><br><br>
