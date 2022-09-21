@@ -73,7 +73,28 @@ Matemática
   <input type="range" min="1" max="100" value="50"><br><br><br>
   Opinião quanto a utilização
   <fieldset style="width:600px; height: 300px;">
-  <img src="https://fundacaotelefonicavivo.org.br/wp-content/webp-express/webp-images/uploads/2021/05/lingua-portuguesa-1200px-materia.jpg.webp?x53362" width="300" height="150">
+  <img src="https://fundacaotelefonicavivo.org.br/wp-content/webp-express/webp-images/uploads/2021/05/lingua-portuguesa-1200px-materia.jpg.webp?x53362" width="300" height="150"><br>
+<p2>Na frase "eu sou bonito" o sujeito é </p2> 
+<form name="input"
+action="html_form_action.asp"
+method="get">
+
+Brad Pitt 
+<input type="radio" name="Sex"
+value="male" checked>
+<br>
+João da Padaria
+<input type="radio" name="Sex"
+value="male" checked>
+<br>
+você mesmo
+<input type="radio" name="Sex"
+value="male" checked>
+<br>
+Seus Pais 
+<input type="radio" name="Sex"
+value="male" checked>
+<br>
 </body>
 </html>
 
