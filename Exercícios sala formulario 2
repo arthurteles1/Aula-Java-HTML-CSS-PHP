@@ -84,10 +84,8 @@ value="Coloque um comentario" size="40">
     <input type="password" id="pass" name="password"
            minlength="8" required>
 </div>
-
 <input type="submit" value="Sign in">
 </form> 
-
 </p>
 </body>
 </html>
