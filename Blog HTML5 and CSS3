@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial;
+            padding: 20px;
+            background: #f1f1f1;
+        }
+
+        .header {
+            padding: 30px;
+            font-size: 40px;
+            text-align: center;
+            background: white;
+        }
+
+        .leftcolumn {
+            float: left;
+            width: 75%;
+        }
+
+        .fakeimg {
+            background-color: #aaa;
+            width: 100%;
+            padding: 20px;
+        }
+
+        .card {
+            background-color: white;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+
+        .footer {
+            padding: 20px;
+            text-align: center;
+            background: #ddd;
+            margin-top: 20px;
+        }
+
+
+        @media screen and (max-width: 800px) {
+
+            .leftcolumn,
+            .rightcolumn {
+                width: 100%;
+                padding: 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        <h2>Central dos Gamers</h2>
+    </div>
+
+    <div class="row">
+        <div class="leftcolumn">
+            <div class="card">
+                <h2>Últimas notícias</h2>
+                <h5>Data de Postagem: 01/10/2022  17:45</h5>
+                <div class="fakeimg" style="height:200px;">Image</div>
+                <p>Sobre o Evento...</p>
+                <p>A equipe brasileira Luminosity Gaming formada por Gabriel “FalleN” Toledo, Fernando “fer” Alvarenga, Epitácio “TACO” 
+                    de Melo, Marcelo “coldzera” David, Lincon “fnx” Lau e Wilton “zews” Prado,
+                     superou a Natus Vincere na final e ergueu o troféu do MLG Columbus. Assim fazendo história a cada acmpeonato que passa.</p>
+            </div>
+            <div class="card">
+                <h2>Skin mais cara do CS:GO</h2>
+                <h5>Data de Postagem: 05/10/2022 16:32</h5>
+                <div class="fakeimg" style="height:200px;">Image</div>
+                <p>Sobre a Reportagem...</p>
+                <p>A venda de maior valor na história do CS:GO fica com a M4A1 Howl Stattrak vendida para um colecionador, 
+                    que tem um inventário avaliado em mais de R$ 1,3 milhóes! 
+                    A skin ainda conta com quatro adesivos holográficos da equipe iBUYPOWER, aumentando ainda mais seu preço para essa quantia atingida.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <h2>Footer</h2>
+    </div>
+
+</body>
+
+</html>
