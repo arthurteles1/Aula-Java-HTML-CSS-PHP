@@ -11,7 +11,7 @@
         body {
             font-family: Arial;
             padding: 20px;
-            background: #c7bfbf;
+            background: #2f4586;
         }
 
         .header {
@@ -38,13 +38,11 @@
             margin-top: 20px;
         }
 
-
         .row:after {
             content: "";
             display: table;
             clear: both;
         }
-
 
         .footer {
             padding: 20px;
@@ -52,7 +50,6 @@
             background: rgb(214, 213, 213);
             margin-top: 20px;
         }
-
 
         @media screen and (max-width: 800px) {
 
@@ -99,12 +96,9 @@
             </div>
         </div>
     </div>
-
     <div class="footer">
         <img src="https://liquipedia.net/commons/images/6/60/HLTV.org_logo.png" class="img-responsive" style="width:10%"
             alt="Image">
     </div>
-
 </body>
-
 </html>
